@@ -14,18 +14,18 @@ programa {
     escreva("Informe sua idade: ")
     leia(idade)
     se(idade < 0 ou idade > 105)
-    escreva("Idade inválida. Digite entre 0 e 105.\n")//Evitando números inexistentes
+    escreva("Idade invÃ¡lida. Digite entre 0 e 105.\n")//Evitando nÃºmeros inexistentes
 
     escreva("\n Dia da semana: \n")
-    escreva("1- Segunda/Terça 30% off\n")
+    escreva("1- Segunda/TerÃ§a 30% off\n")
     escreva("2- Quarta- Meia para todos\n")
     escreva("3- Quinta a domingo\n")
     escreva("Escolha:")
     leia(dia_semana)
 
-    escreva("\nTipo da sessão: \n")
+    escreva("\nTipo da sessÃ£o: \n")
     escreva("1- Fileira VIP: +R$5\n")
-    escreva("2- Fileira Normal: sem adicional\n")//Exlpicação mais detalhada
+    escreva("2- Fileira Normal: sem adicional\n")//ExlpicaÃ§Ã£o mais detalhada
     escreva("Escolha:")
     leia(dia_semana)
 
@@ -57,7 +57,7 @@ programa {
     escreva("Cliente", nome, "\n")
     escreva("Idade", idade, "\n")
     escreva("Categoria", categoria, "\n")
-    escreva("Preço base: R$",preco_base, "\n")
+    escreva("PreÃ§o base: R$",preco_base, "\n")
     escreva("Desconto: R$",desconto, "\n")
     escreva("Total ingresso: R$",preco_ingresso, "\n")
     escreva("================================\n")
